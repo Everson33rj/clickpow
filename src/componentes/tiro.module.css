@@ -1,0 +1,98 @@
+.tiro1{
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    animation: tiro1-animation .4s infinite;
+    animation-timing-function: ease-in-out;
+    left: 40%;
+    border-radius: 50%;
+    background-color: yellow;
+}
+
+@keyframes tiro1-animation {
+    0%{
+
+        bottom: 30%;
+    }
+
+    100%{
+        bottom: 80%;
+        animation-play-state: paused;
+        left: 90%;
+    }
+}
+
+.tiro2{
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    animation: tiro2-animation .15s infinite;
+    animation-timing-function: ease-in-out;
+    left: 10%;
+    border-radius: 50%;
+    background-color: yellow;
+
+}
+
+@keyframes tiro2-animation {
+    0%{
+
+        bottom: 10%;
+    }
+
+    100%{
+        bottom: 75%;
+        animation-play-state: paused;
+        left: 40%;
+    }
+}
+
+.tiro3{
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    animation: tiro3-animation .3s infinite;
+    animation-timing-function: ease-in-out;
+    left: 60%;
+    border-radius: 50%;
+    background-color: rgb(255, 35, 35);
+
+}
+
+@keyframes tiro3-animation {
+    0%{
+
+        bottom: 10%;
+    }
+
+    100%{
+        bottom: 70%;
+        animation-play-state: paused;
+        left: 25%;
+    }
+}
+
+.tiro4{
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    animation: tiro4-animation .8s infinite;
+    animation-timing-function: ease-in-out;
+    left: 90%;
+    border-radius: 50%;
+    background-color: yellow;
+
+}
+
+@keyframes tiro4-animation {
+    0%{
+
+        bottom: 20%;
+    }
+
+    100%{
+        bottom: 80%;
+        animation-play-state: paused;
+        left: 80%;
+    }
+}

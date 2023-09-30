@@ -1,0 +1,108 @@
+*{
+    user-select: none;
+}
+
+.header{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 1;
+    
+}
+
+.tempodejogo{
+    color: white;
+    position: absolute;
+    bottom: -30px;
+    font-size: 8pt;
+    right: 0.2%;
+    display: flex;
+}
+
+.tempodejogo1{
+    color: #00b41e;
+}
+
+.tempodejogo2{
+    margin-right: 20px;
+    color: #d0ff00;
+}
+
+.logomenu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 95%;
+    position: relative;
+    margin-top: 30px;
+    background-color: rgba(0, 0, 0, 0.712);
+    padding: 10px;
+    border-radius: 5px;
+    transition: 5000ms;
+
+}
+
+.clicks{
+    color: white;
+    text-transform: uppercase;
+}
+
+.points{
+    color: yellow;
+}
+
+.points img{
+    height: 20px;
+    width: 5px;
+}
+
+.level{
+    color: white;
+    text-transform: uppercase;
+}
+
+.velocity{
+    color: white;
+    text-transform: uppercase;
+    text-transform: capitalize;
+}
+
+.life{
+    color: white;
+    text-transform: uppercase;
+}
+
+.logo{
+    text-decoration: none;
+    color: #00b41e;
+    font-size: 20pt;
+}
+
+.logo img{
+    width: 230px;
+}
+
+.nomeuser{
+    color: #ffffff;
+}
+
+.menu{
+    cursor: pointer;
+    width: 230px;
+    display: flex;
+    justify-content: end;
+    transition: 5000ms;
+
+}
+
+.menu a{
+    color: rgb(230, 230, 230);
+    text-transform: uppercase;
+}
+
+.menu a:nth-child(odd){
+    margin-right: 15px;
+}

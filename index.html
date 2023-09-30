@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet">
+    <meta charset="UTF-8" />
+    <meta property="og:image" content="https://clickpow.com.br/cover-f31b1e8a.png">
+    <meta property="og:description" content="Jogo educativo ClickPow. Não deixe os mísseis caírem!">
+    <meta name="description" content="Jogo educativo ClickPow. Não deixe os mísseis caírem!">
+    <link rel="icon" type="image/svg+xml" href="./src/assets/images/favicon3.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ClickPow</title>
+  </head>
+  
+  <body>
+    
+    <audio src="./sounds/st2.wav" id="soundTrack"></audio>
+    <audio src="./sounds/youwin.wav" id="soundWin"></audio>
+    <audio src="./sounds/st3.mp3" id="levelfase"></audio>
+    <audio src="./sounds/nav/nav1.wav" id="somnave"></audio>
+    <audio src="./sounds/soundnave2.mp3" id="somnave2"></audio>
+    <audio src="./sounds/tiros1.mp3" id="tiros1"></audio>
+    <audio src="./sounds/tiros2.mp3" id="tiros2"></audio>
+    <audio src="./sounds/tiros3.mp3" id="tiros3"></audio>
+    <audio src="./sounds/radio1.mp3" id="radio1"></audio>
+    <audio src="./sounds/radio2.mp3" id="radio2"></audio>
+    <audio src="./sounds/radio3.mp3" id="radio3"></audio>
+    <audio src="./sounds/radio4.mp3" id="radio4"></audio>
+    <audio src="./sounds/radio5.mp3" id="radio5"></audio>
+    <audio src="./sounds/radio6.mp3" id="radio6"></audio>
+    <audio src="./sounds/exposionmissil.mp3" id="explosionmissil"></audio>
+
+
+    <div id="root"></div>
+
+    <script type="module" src="/src/main.jsx"></script>
+    <script src="./js/SoundTrack.jsx"></script>
+    <script src="./js/SoundWin.jsx"></script>
+    <script src="./js/SoundLevelFase.jsx"></script>
+    <script src="./js/SondNaveMae.jsx"></script>
+    <script src="./js/SondNaveMae2.jsx"></script>
+    <script src="./js/SondTiros1.jsx"></script>
+    <script src="./js/SondTiros2.jsx"></script>
+    <script src="./js/SondTiros3.jsx"></script>
+    <script src="./js/SondRadio1.jsx"></script>
+    <script src="./js/SoundExplosionMissil.jsx"></script>
+
+    <script type="module" src="./src/App.jsx"></script>
+  </body>
+
+</html>

@@ -1,0 +1,20 @@
+.fog{
+    position: absolute;
+    bottom: 0;
+    width: 300%;
+    height: 70%;
+    opacity: 35%;
+    animation: linear infinite alternate;
+    animation-name: rocket-animation;
+    animation-duration: 60s;
+}
+
+@keyframes rocket-animation {
+    0%{
+        left: -200%;
+    }
+
+    100%{
+        left: 0%;
+    }
+}

@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;    
+}
+
+.back{
+    background-position-x: -500px;
+    background-size: 120%;
+    background-position-x: -40px;
+    animation: backg-animation 100s alternate infinite reverse;
+    z-index: -1;    
+}
+
+@keyframes backg-animation {
+
+    0%{
+        background-position-x: -50px;
+    }
+
+    10%{
+        background-position-x: -30px;
+    }
+
+    50%{
+        background-position-y: -100px;
+    }
+
+    100%{
+        background-position-y: -110px;
+    }
+    
+}

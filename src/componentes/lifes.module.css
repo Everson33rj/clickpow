@@ -1,0 +1,22 @@
+.lifes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 50px;
+    animation: rocket-animation 20s;
+    animation-fill-mode: both;
+    margin: 50px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+@keyframes rocket-animation {
+    0%{
+        top: -200px;
+    }
+
+    100%{
+        top: 110%;
+    }
+}

@@ -1,0 +1,72 @@
+.rocket1{
+    width: 200px;
+    position: absolute;
+    animation: rocket-animation 15s;
+    animation-fill-mode: both;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rocket2{
+    width: 200px;
+    position: absolute;
+    animation: rocket-animation 10s;
+    animation-fill-mode: both;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rocket3{
+    width: 200px;
+    position: absolute;
+    animation: rocket-animation 7s;
+    animation-fill-mode: both;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rocket4{
+    width: 200px;
+    position: absolute;
+    animation: rocket-animation 5s;
+    animation-fill-mode: both;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rocket5{
+    width: 200px;
+    position: absolute;
+    animation: rocket-animation 3s;
+    animation-fill-mode: both;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rocketimg{
+    height: 150px;    
+    cursor: url('../assets/images/mira.png');
+}
+
+@keyframes rocket-animation {
+    0%{
+        top: -200px;
+    }
+
+    10%{
+        top: 25%;
+    }
+
+    50%{
+        top: 60%;
+    }
+
+    100%{
+        top: 110%;
+    }
+}

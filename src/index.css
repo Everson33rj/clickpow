@@ -1,0 +1,22 @@
+:root {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Press Start 2P', cursive;
+  text-decoration: none;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  background-size:cover;
+  overflow: hidden;
+  height: 80vh;
+}

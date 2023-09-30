@@ -1,0 +1,46 @@
+.divgo{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    left: 0;
+    justify-content: center;
+    align-items: center;
+    animation: gameover-animation;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.gameimg{
+    width: 250px;
+    margin-bottom: 20px;
+    animation: img-animation .5s infinite alternate;
+}
+
+.divgo p{
+    font-size: 15pt;
+    color: white;
+    text-align: center;
+}
+
+@keyframes gameover-animation {
+    0%{
+        bottom: -400px;
+    }
+
+    100%{
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.747);
+        animation-play-state: paused;
+    }
+}
+
+@keyframes img-animation {
+
+    100%{
+        width: 270px;
+    }
+}

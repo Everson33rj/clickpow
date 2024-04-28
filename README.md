@@ -1,3 +1,6 @@
+Jogo educativo voltado para iniciantes em informática a ganharem a habilidade de clicar duas vezes no mouse.
+
+Abra o site e clique em f11 para expandir
 Site de exemplo:
 https://everson33rj.github.io/clickpow/
 
